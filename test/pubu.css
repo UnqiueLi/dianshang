@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: '微软雅黑';
+}
+#contain{
+    width: 100%;
+    background: #000 url("../images/brand01.jpg") no-repeat;
+    position: relative;
+}
+.containdatail{
+    width: 1210px;
+    margin: 0 auto;
+}
+.bdinter{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #fff;
+    position: absolute;
+    top: 38px;
+}
+.bdinter .datailLeft{
+    width: 160px;
+    height: 88px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    box-shadow: 0px -1px 8px #999,1px 1px 8px #999,1px 1px 8px #999,-1px 1px 8px #999;
+    -webkit-box-shadow: 0px -1px 8px #999,1px 1px 8px #999,1px 1px 8px #999,-1px 1px 8px #999;
+}
+.bdinter .datailRight{
+    width: 950px;
+    padding-left: 80px;
+    min-height: 110px;
+    float: left;
+    color: #666;
+}
+.bdinter .datailRight a,p{
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+    line-height: 35px;
+    padding: 10px 5px;
+}
+.bdinter .datailRight .datailLeft1{
+    float: left;
+}
+.bdinter .datailRight .datailRightEnjory{
+    float: right;
+}
+.bdinter .datailRight .enjory{
+    width: 25px;
+    height: 35px;
+    float: left;
+    background: url("../images/brandstore_share.png") no-repeat -68px -334px;
+}
+.bdinter .datailRight #btn{
+    border: 1px solid #bfa79d;
+    padding: 3px 5px;
+    background: #fff;
+    border-radius: 5px;
+}
+.article{
+    clear: both;
+    font-size: 13px;
+}
+.allBrandKe{
+    width: 1210px;
+    background: #fff;
+    height: 178px;
+    margin: 0 auto;
+}
+.allBrand{
+    padding: 8px 0;
+    zoom: 1;
+}
+.allBrand{
+    width: 1210px;
+    margin: 10px auto;
+    background: #fff;
+    padding-bottom: 10px;
+}
+.allBrand span{
+    display: inline-block;
+    padding: 10px 0px 4px 25px;
+    color: #79502d;
+    font-size: 12px;
+}
+.allBrand span a{
+    color: #79502d;
+}
+.allBrand .datline{
+    border: 1px dashed #000000;
+    padding: 5px 10px;
+    margin-bottom: 2px;
+}
+.allBrand span a:hover{
+    color: #000000;
+}
+.allbag{
+    width: 1169px;
+    margin: 0 auto;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    overflow: hidden;
+    zoom: 1;
+    background-color: #fff;
+}
+.allbag li{
+    float: left;
+    height: 45px;
+    line-height: 45px;
+}
+.datalitop{
+    width: 86px;
+    background-color: #ebebeb;
+    text-align: center;
+}
+.datalitop1{
+    width: 390px;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+.allbag li a{
+    font-size: 13px;
+    padding: 3px 5px;
+}
+.allbag li a:hover{
+    color: #fff;
+    background-color: #79502d;
+}
+.allbag .datalitop a{
+    color: #000;
+}
+.allbag .datalitop1 a{
+    color: #79502d;
+}
+.datailPrice,.datailbuy{
+    background: #fff;
+    padding: 10px 15px;
+    width: 1210px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.datailPrice span{
+    padding: 5px 20px;
+    color: #79502d;
+    cursor: pointer;
+}
+.datailPrice span:hover{
+    color: #fff;
+    background-color:  #79502d;
+}
+.datailPrice  .active2{
+    color: #fff;
+    background-color:  #79502d;
+}
+.datailbuy{
+    margin-top: 10px;
+}
+.datailbuy span{
+    border:1px solid #c9c9c9;
+    color: #333333;
+    cursor: pointer;
+    padding: 5px 20px;
+    width: 100px;
+}
+.datailbuy  .active{
+    color: #fff;
+    background: #c69c6d;
+}
+.datailbuy .xiao{
+    height: 25px;
+    width: 10px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    background: url("../images/brandstore_share.png") no-repeat -314px -230px;
+}
+.datailbuy .name:hover{
+    color:  #c69c6d;
+}
+.datailbuy .active{
+    color: #ffffff;
+}
+.datailbuy .jia{
+    line-height: 27px;
+    height: 27px;
+    width: 10px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 48px;
+    background: url("../images/brandstore_share.png") no-repeat -274px -230px;
+}
+.datailmid{
+    width: 1210px;
+    margin: 10px auto;
+    background: #fff;
+    height: 900px;
+}
+.datailmid ul li{
+    width: 302px;
+    min-height: 440px;
+    float: left;
+    padding-bottom: 20px;
+    border: 8px solid #fff;
+}
+.datailmid ul li p{
+    color: #333333;
+}
+.datailmid ul li span{
+    color: #c69c6d;
+    font-size: 15px;
+}

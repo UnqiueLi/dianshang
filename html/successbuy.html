@@ -1,0 +1,1345 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付成功</title>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/index.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/inputSearch.js"></script>
+    <script src="../js/myfocus-2.0.4.min.js"></script>
+    <link rel="stylesheet" href="../css/successbuy.css"/>
+    <script src="../js/successbuy.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+</head>
+<body>
+<!--导航1-->
+<header id="top">
+    <div id="header-top">
+        <img src="../images/nav_02.png" alt="" class="responsive-img">
+    </div>
+</header>
+<!--导航2-->
+<header id="bottom">
+    <div id="header-bottom">
+        <ul class="header-left">
+            <li class="shouye"><a href="index.html"><i class="home"></i>潮流首页</a></li>
+            <span>|</span>
+            <li class="zhuanxian">
+                <i class="guibin"></i>贵宾专线：400-6660-5610</li>
+        </ul>
+
+        <ul class="header-right">
+            <li class="denglv"><a href="login.html">登录</a></li><span>|</span>
+            <li class="zhuce"><a href="res.html"><i class="zhuce-1"></i>注册</a></li><span>|</span>
+            <li class="five">
+                <a href="#">
+                    我的潮流<i class="road"></i>
+                </a>
+                <ul id="goods">
+                    <li><a href="mycart.html">我的订单</a></li>
+                    <li><a href="#">我的收藏</a></li>
+                    <li><a href="#">已购商品</a></li>
+                    <li><a href="#">我的礼券</a></li>
+                    <li><a href="#">我的积分</a></li>
+                </ul>
+            </li>
+            <span>|</span>
+            <li><a href="#">帮助中心</a></li>
+            <span>|</span>
+            <li class="phone">
+                <span>手机版下载<i class="wei"></i></span>
+                <div id="picture">
+                    <b><img src="../images/qr.jpg" alt=""></b>
+                    <p>扫描下载App</p>
+                    <p>立即<b>赠送50元</b></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</header>
+<!--导航3 搜索-->
+<nav id="nav-top">
+    <div id="nav-top-1">
+        <div id="nav-1">
+            <a href="#"><img src="../images/index-logo.png" alt="" title=""></a>
+        </div>
+        <div id="nav-2"><a href="#"><img src="../images/yijian.jpg" alt="" title="一键链接奢侈品专柜"></a></div>
+        <div id="nav-3">
+            <form action="" >
+                <div id="inp">
+                    <input type="text" placeholder="爱马仕铂金包" id="gover_search_key">
+                    <a href="#">搜索</a>
+                    <div id="gov_search_suggest"><ul></ul></div>
+                </div>
+                <ul id="clock">
+                    <li>
+                        <a href="#">腕表</a>
+                    </li>
+                    <li>
+                        <a href="#">箱包</a>
+                    </li>
+                    <li>
+                        <a href="#">阿玛尼</a>
+                    </li>
+                    <li>
+                        <a href="#">T恤</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div id="nav-4">
+            <a href="mybag.html" id="">
+                <i class="nav-pict"></i>购物袋(<span>0</span>) <i class="nav-pict-1"></i>
+            </a>
+            <div class="nav-a">
+                <p>购物袋暂时没有商品，<br>赶紧选择心爱的商品吧！</p>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--主导航 菜单栏-->
+<div id="fixNav">
+<nav id="nav-bottom" class="fixna">
+<ul class="menu">
+<li class="shapping">
+<a href="#" class="menu_s shopgood">商品分类</a>
+<div class="nav">
+<ul>
+<li>
+    <a href="" class="lineunder">
+        <i class="one bannerOne"></i>
+        <span class="pingpai ">推荐品牌</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" ><a href="" class="inbtn">进入所有品牌</a></ul>
+    </div>
+</li>
+
+<li>
+    <a href=""  class="lineunder">
+        <i class=" one bag"></i>
+        <span>箱包</span>
+        <i class="jiantou"></i>
+    </a>
+    <!--<s></s>-->
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入箱包频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one bea"></i>
+        <span>美妆</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="beaty">
+            <ul class="beatytop">
+                <h2><a href="">护肤</a></h2>
+                <ul class="show">
+                    <ul class="show-part">
+                        <h3><a href="">眼部护理</a></h3>
+                        <ul>
+                            <li><a href="">眼霜</a></li>
+                            <li><a href="">眼膜</a></li>
+                            <li><a href="">眼精华</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">面部护理</a></h3>
+                        <ul>
+                            <li><a href="">卸妆</a></li>
+                            <li><a href="">洁面</a></li>
+                            <li><a href="">爽肤/化妆水</a></li>
+                            <li><a href="">精华</a></li>
+                            <li><a href="">精油</a></li>
+                            <li><a href=""> 乳液</a></li>
+                            <li><a href="">面霜</a></li>
+                            <li><a href="">防晒霜</a></li>
+                            <li><a href="">面膜</a></li>
+                            <li><a href="">颈霜</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">唇部护理</a></h3>
+                        <ul>
+                            <li><a href="">润唇膏</a></li>
+                            <li><a href="">唇膜</a></li>
+                            <li><a href="">唇霜</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">护肤工具</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+            <ul class="beatytop">
+                <h2><a href="">彩妆</a></h2>
+                <ul class="show">
+                    <ul class="show-part">
+                        <h3><a href="">眼部彩妆</a></h3>
+                        <ul>
+                            <li><a href="">眉粉/笔</a></li>
+                            <li><a href="">睫毛膏</a></li>
+                            <li><a href="">眼影</a></li>
+                            <li><a href="">眼线液/笔、膏</a></li>
+                            <li><a href="">护理液</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">面部彩妆</a></h3>
+                        <ul>
+                            <li><a href="">隔离</a></li>
+                            <li><a href="">粉底液</a></li>
+                            <li><a href="">粉饼</a></li>
+                            <li><a href="">散粉/蜜粉</a></li>
+                            <li><a href="">BB霜</a></li>
+                            <li><a href="">腮红/胭脂</a></li>
+                            <li><a href="">阴影粉</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">美甲</a></h3>
+                        <ul>
+                            <li><a href="">指甲油</a></li>
+                            <li><a href="">指甲水</a></li>
+                            <li><a href="">护甲</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">唇部彩妆</a></h3>
+                        <ul>
+                            <li><a href="">唇彩/唇蜜</a></li>
+                            <li><a href="">口红</a></li>
+                            <li><a href="">唇线笔</a></li>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+            <ul class="beatytop">
+                <h2><a href="">香水</a></h2>
+                <ul class="show">
+                    <ul class="show-part">
+                        <h3><a href="">浓香水</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">淡香水</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">香精</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">香膏</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+                    <ul class="show-part">
+                        <h3><a href="">古龙水</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+                </ul></ul>
+            <ul class="beatytop">
+                <h2><a href="">美体</a></h2>
+                <ul class="show">
+                    <ul class="show-part">
+                        <h3><a href="">瘦身减肥</a></h3>
+                        <ul>
+                            <li><a href="">瘦脸</a></li>
+                            <li><a href="">瘦身</a></li>
+                            <li><a href="">瘦腿</a></li>
+                            <li><a href="">瘦腹</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="">淡香水</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+            <ul class="interindex" >
+                <a href="" class="inbtn">进入美妆频道</a>
+                <a href="" class="inbtn">闪电发货区</a>
+            </ul>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one cothes"></i>
+        <span>服装</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入服装频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one biao"></i>
+        <span>腕表</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入腕表频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one shoushi"></i>
+        <span>配饰</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入配饰频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one shose"></i>
+        <span>鞋靴</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入鞋靴频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one children"></i>
+        <span>母婴</span>
+        <i class="jiantou">
+
+
+        </i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入母婴频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one drink"></i>
+        <span>美酒</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入美酒频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one food"></i>
+        <span>美食</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入美食频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one jiaju"></i>
+        <span>家居</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入家居频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one dianzhi"></i>
+        <span>电子</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入电子频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one office"></i>
+        <span>办公</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入办公频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one gifto"></i>
+        <span>礼品</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入礼品频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one seaout"></i>
+        <span>海外馆</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="">Louis Vuitton/LV</a></li>
+                <li><a href="">Chanel</a></li>
+                <li><a href="">Prada</a></li>
+                <li><a href="">Fendi</a></li>
+                <li><a href="">Versace</a></li>
+                <li><a href="">Burberry</a></li>
+                <li><a href="">Hermes</a></li>
+                <li><a href="">Dior</a></li>
+                <li><a href="">Gucci</a></li>
+                <li><a href="">Mont blance</a></li>
+                <li><a href="">Armani</a></li>
+                <li><a href="">Calvin Klein</a></li>
+                <li><a href="">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Sophie&Stephie</a></li>
+                <li><a href="">Michael&nbsp;Kors</a></li>
+                <li><a href="">Swarovski</a></li>
+                <li><a href="">D&G</a></li>
+                <li><a href="">Coach</a></li>
+                <li><a href="">Weekender</a></li>
+                <li><a href="">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="">Columbia</a></li>
+                <li><a href="">Roger&nbsp;Vivier</a></li>
+                <li><a href="">Troika</a></li>
+                <li><a href="">Luis&nbsp;onofre</a></li>
+                <li><a href="">Pull-in</a></li>
+                <li><a href="">proenza Schouler</a></li>
+                <li><a href="">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="" class="inbtn">进入海外馆频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+    <a href="#" class="menu_a">品牌</a>
+</li>
+<li>
+    <a href="#" class="menu_a">最新</a>
+</li>
+<li>
+    <a href="#" class="menu_a">女士</a>
+</li>
+<li>
+    <a href="#" class="menu_a">男士</a>
+</li>
+<li>
+    <a href="#" class="menu_a">生活馆</a>
+</li>
+<li>
+    <a href="#" class="menu_a">海外馆</a>
+</li>
+<li>
+    <a href="#" class="menu_a">时尚</a>
+</li>
+<li>
+    <a href="#" class="menu_a">特惠</a>
+</li>
+<li>
+    <a href="#" class="menu_a">礼品区</a>
+</li>
+<li>
+    <a href="#" class="menu_a">到店</a>
+</li>
+</ul>
+<ul id="icon_wrap" class="icon_Wrap">
+    <li>
+        <div class="divlist divlist01">
+            <a href="" target="_blank"><span class=""></span>
+                <b>品牌授权，官方验真</b>
+            </a>
+        </div>
+    </li>
+    <li>
+        <div class="divlist divlist02">
+            <a href="" target="_blank"><span class="th"></span>
+                <b>尊享品牌会员服务</b>
+            </a>
+        </div>
+    </li>
+    <li>
+        <div class="divlist divlist03">
+            <a target="_blank" href=""><span class="by"></span>
+                <b>商务部诚信示范企业</b>
+            </a>
+        </div>
+    </li>
+</ul>
+</nav>
+</div>
+
+<div class="succbuy">
+    <div class="mybagSty">
+        <div class="mybagCartLeft"></div>
+        <div class="mybagCartRight1"></div>
+    </div>
+</div>
+<div class="succecon">
+    您购买的物品已经飞奔在路上，欢迎你下次再来
+</div>
+<div class="bottomF">
+
+    <h3 style="color:#d00;padding: 5px">您可能喜欢的同款</h3>
+    <ul class="lunbotusu">
+        <li>
+            <img src="../images/white1.jpg" alt="" class="responsive-img"/>
+            <p>女士裙装 王小骞同款</p>
+            <p>270510</p>
+            <p >特惠价<span class="mySame">RMB:10900.00</span></p>
+        </li>
+        <li>
+            <img src="../images/white2.jpg" alt="" class="responsive-img"/>
+            <p>女士裙装 王小骞同款</p>
+            <p>270510</p>
+            <p >特惠价<span class="mySame">RMB:10900.00</span></p>
+        </li>
+        <li>
+            <img src="../images/white3.jpg" alt="" class="responsive-img"/>
+            <p>女士裙装 王小骞同款</p>
+            <p>270510</p>
+            <p >特惠价<span class="mySame">RMB:10900.00</span></p>
+        </li>
+        <li>
+            <img src="../images/black2.jpg" alt="" class="responsive-img"/>
+            <p>女士裙装 王小骞同款</p>
+            <p>270510</p>
+            <p >特惠价<span class="mySame">RMB:10900.00</span></p>
+        </li>
+        <li>
+            <img src="../images/black2.jpg" alt="" class="responsive-img"/>
+            <p>女士裙装 王小骞同款</p>
+            <p>270510</p>
+            <p >特惠价<span class="mySame">RMB:10900.00</span></p>
+        </li>
+        <li>
+            <img src="../images/black2.jpg" alt="" class="responsive-img"/>
+            <p>女士裙装 王小骞同款</p>
+            <p>270510</p>
+            <p >特惠价<span class="mySame">RMB:10900.00</span></p>
+        </li>
+        <li>
+            <img src="../images/black2.jpg" alt="" class="responsive-img"/>
+            <p>女士裙装 王小骞同款</p>
+            <p>270510</p>
+            <p >特惠价<span class="mySame">RMB:10900.00</span></p>
+        </li>
+        <li>
+            <img src="../images/black2.jpg" alt="" class="responsive-img"/>
+            <p>女士裙装 王小骞同款</p>
+            <p>270510</p>
+            <p >特惠价<span class="mySame">RMB:10900.00</span></p>
+        </li>
+    </ul>
+</div>
+<!--垫定假层 清除浮动-->
+<div id="null"></div>
+<!--网页脚本底部-->
+<div id="footerbox">
+    <div id="footboxCon">
+        <ul class="foottop">
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="footmid">
+            <ul>
+                <li class="foottitle"><span class="footSpan">服务保障</span></li>
+                <li><span class="footSpan1">品牌授权正品</span></li>
+                <li><span class="footSpan1">品牌客服</span></li>
+                <li><span class="footSpan1">预约到店体验</span></li>
+                <li><span class="footSpan1">7天无理由退换</span></li>
+            </ul>
+
+            <ul>
+                <li class="foottitle"><span class="footSpan">使用帮助</span></li>
+                <li><span class="footSpan1">常见问题</span></li>
+                <li><span class="footSpan1">会员制度</span></li>
+                <li><span class="footSpan1">集团采购</span></li>
+                <li><span class="footSpan1">礼品卡</span></li>
+            </ul>
+
+            <ul>
+                <li class="foottitle"><span class="footSpan">配送方式</span></li>
+                <li><span class="footSpan1">常见问题</span></li>
+                <li><span class="footSpan1">会员制度</span></li>
+                <li><span class="footSpan1">集团采购</span></li>
+                <li><span class="footSpan1">礼品卡</span></li>
+            </ul>
+
+            <ul>
+                <li class="foottitle"><span class="footSpan">使用帮助</span></li>
+                <li><span class="footSpan1">常见问题</span></li>
+                <li><span class="footSpan1">会员制度</span></li>
+                <li><span class="footSpan1">集团采购</span></li>
+                <li><span class="footSpan1">礼品卡</span></li>
+                <li><span class="footSpan1">品牌授权正品</span></li>
+                <li><span class="footSpan1">品牌客服</span></li>
+            </ul>
+
+            <ul>
+                <li class="foottitle"><span class="footSpan">售后服务</span></li>
+                <li><span class="footSpan1">常见问题</span></li>
+                <li><span class="footSpan1">会员制度</span></li>
+                <li><span class="footSpan1">集团采购</span></li>
+                <li><span class="footSpan1">礼品卡</span></li>
+            </ul>
+
+            <ul>
+                <li><span class="footSpan">安装app</span></li>
+                <li style="width: 80px ;height: 80px;"><img src="../images/qr.jpg" alt="" class="responsive-img"/></li>
+            </ul>
+        </div>
+        <div class="footbottom">
+            <p class="footbottombag footSame">
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+            </p>
+            <p class="footbottombag1 footSame">
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+            </p>
+            <p class="footSame1">
+                <span>Copyright&copy;20016-2020 fasion.com版权20016-2020fasion.com版权所有Copyright&copy;20016-2020 fasion.com版权20016-2020fasion.com版权所有</span>
+            </p>
+            <p class="footbottombag">
+                <a href=""><img src="../images/footer_message11.jpg" alt=""/></a>
+                <a href=""><img src="../images/footer_message11.jpg" alt=""/></a>
+                <a href=""><img src="../images/footer_message11.jpg" alt=""/></a>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

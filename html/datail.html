@@ -1,0 +1,1524 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/index.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/datail.css">
+    <link rel="stylesheet" href="../css/common.css"/>
+    <script src="../js/fixed.js"></script>
+    <script src="../js/inputSearch.js"></script>
+    <script src="../js/myfocus-2.0.4.min.js"></script>
+    <script src="../js/datail.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/jquery.filterizr.js"></script>
+    <script src="../js/sort.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+<body>
+<!--导航1-->
+<header id="top">
+    <div id="header-top">
+        <img src="../images/nav_02.png" alt="" class="responsive-img">
+    </div>
+</header>
+<!--导航2-->
+<header id="bottom">
+    <div id="header-bottom">
+        <ul class="header-left">
+            <li class="shouye"><a href="index.html"><i class="home"></i>潮流首页</a></li>
+            <span>|</span>
+            <li class="zhuanxian">
+                <i class="guibin"></i>贵宾专线：400-6660-5610</li>
+        </ul>
+
+        <ul class="header-right">
+            <li class="denglv"><a href="login.html">登录</a></li><span>|</span>
+            <li class="zhuce"><a href="res.html"><i class="zhuce-1"></i>注册</a></li><span>|</span>
+            <li class="five">
+                <a href="#">
+                    我的潮流<i class="road"></i>
+                </a>
+                <ul id="goods">
+                    <li><a href="mycart.html">我的订单</a></li>
+                    <li><a href="#">我的收藏</a></li>
+                    <li><a href="#">已购商品</a></li>
+                    <li><a href="#">我的礼券</a></li>
+                    <li><a href="#">我的积分</a></li>
+                </ul>
+            </li>
+            <span>|</span>
+            <li><a href="#">帮助中心</a></li>
+            <span>|</span>
+            <li class="phone">
+                <span>手机版下载<i class="wei"></i></span>
+                <div id="picture">
+                    <b><img src="../images/qr.jpg" alt=""></b>
+                    <p>扫描下载App</p>
+                    <p>立即<b>赠送50元</b></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</header>
+<!--导航3 搜索-->
+<nav id="nav-top">
+    <div id="nav-top-1">
+        <div id="nav-1">
+            <a href="#"><img src="../images/index-logo.png" alt="" title="第五大道奢侈网"></a>
+        </div>
+        <div id="nav-2"><a href="#"><img src="../images/yijian.jpg" alt="" title="一键链接奢侈品专柜"></a></div>
+        <div id="nav-3">
+            <form action="" >
+                <div id="inp">
+                    <input type="text" placeholder="爱马仕铂金包" id="gover_search_key">
+                    <a href="#">搜索</a>
+                    <div id="gov_search_suggest"><ul></ul></div>
+                </div>
+                <ul id="clock">
+                    <li>
+                        <a href="#">腕表</a>
+                    </li>
+                    <li>
+                        <a href="#">箱包</a>
+                    </li>
+                    <li>
+                        <a href="#">阿玛尼</a>
+                    </li>
+                    <li>
+                        <a href="#">T恤</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div id="nav-4">
+            <a href="mybag.html" id="">
+                <i class="nav-pict"></i>购物袋(<span>0</span>) <i class="nav-pict-1"></i>
+            </a>
+            <div class="nav-a">
+                <p>购物袋暂时没有商品，<br>赶紧选择心爱的商品吧！</p>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--主导航 菜单栏-->
+<div id="fixNav">
+<nav id="nav-bottom">
+<ul class="menu">
+<li class="shapping">
+<a href="#" class="menu_s shopgood">商品分类</a>
+<div class="nav">
+<ul>
+<li>
+    <a href="" class="lineunder">
+        <i class="one bannerOne"></i>
+        <span class="pingpai ">推荐品牌</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" ><a href="datailwomen.html" class="inbtn">进入所有品牌</a></ul>
+    </div>
+</li>
+
+<li>
+    <a href=""  class="lineunder">
+        <i class=" one bag"></i>
+        <span>箱包</span>
+        <i class="jiantou"></i>
+    </a>
+    <!--<s></s>-->
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datailwomen.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入箱包频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one bea"></i>
+        <span>美妆</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="beaty">
+            <ul class="beatytop">
+                <h2><a href="datailwomen.html">护肤</a></h2>
+                <ul class="show">
+                    <ul class="show-part">
+                        <h3><a href="datail.html">眼部护理</a></h3>
+                        <ul>
+                            <li><a href="datail.html">眼霜</a></li>
+                            <li><a href="datail.html">眼膜</a></li>
+                            <li><a href="datail.html">眼精华</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datailwomen.html">面部护理</a></h3>
+                        <ul>
+                            <li><a href="datail.html">卸妆</a></li>
+                            <li><a href="datail.html">洁面</a></li>
+                            <li><a href="datail.html">爽肤/化妆水</a></li>
+                            <li><a href="datail.html">精华</a></li>
+                            <li><a href="datail.html">精油</a></li>
+                            <li><a href="datail.html"> 乳液</a></li>
+                            <li><a href="datail.html">面霜</a></li>
+                            <li><a href="datail.html">防晒霜</a></li>
+                            <li><a href="datail.html">面膜</a></li>
+                            <li><a href="datail.html">颈霜</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datailwomen.html">唇部护理</a></h3>
+                        <ul>
+                            <li><a href="datail.html">润唇膏</a></li>
+                            <li><a href="datail.html">唇膜</a></li>
+                            <li><a href="datail.html">唇霜</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datailwomen.html">护肤工具</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+            <ul class="beatytop">
+                <h2><a href="">彩妆</a></h2>
+                <ul class="show">
+                    <ul class="show-part">
+                        <h3><a href="datailwomen.html">眼部彩妆</a></h3>
+                        <ul>
+                            <li><a href="datail.html">眉粉/笔</a></li>
+                            <li><a href="datail.html">睫毛膏</a></li>
+                            <li><a href="datail.html">眼影</a></li>
+                            <li><a href="datail.html">眼线液/笔、膏</a></li>
+                            <li><a href="datail.html">护理液</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datailwomen.html">面部彩妆</a></h3>
+                        <ul>
+                            <li><a href="datail.html">隔离</a></li>
+                            <li><a href="datail.html">粉底液</a></li>
+                            <li><a href="datail.html">粉饼</a></li>
+                            <li><a href="datail.html">散粉/蜜粉</a></li>
+                            <li><a href="datail.html">BB霜</a></li>
+                            <li><a href="datail.html">腮红/胭脂</a></li>
+                            <li><a href="datail.html">阴影粉</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datailwomen.html">美甲</a></h3>
+                        <ul>
+                            <li><a href="datail.html">指甲油</a></li>
+                            <li><a href="datail.html">指甲水</a></li>
+                            <li><a href="datail.html">护甲</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datailwomen.html">唇部彩妆</a></h3>
+                        <ul>
+                            <li><a href="datail.html">唇彩/唇蜜</a></li>
+                            <li><a href="datail.html">口红</a></li>
+                            <li><a href="datail.html">唇线笔</a></li>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+            <ul class="beatytop">
+                <h2><a href="datailwomen.html">香水</a></h2>
+                <ul class="show">
+                    <ul class="show-part">
+                        <h3><a href="datail.html">浓香水</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datail.html">淡香水</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datail.html">香精</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datail.html">香膏</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+                    <ul class="show-part">
+                        <h3><a href="datail.html">古龙水</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+                </ul></ul>
+            <ul class="beatytop">
+                <h2><a href="datailwomen.html">美体</a></h2>
+                <ul class="show">
+                    <ul class="show-part">
+                        <h3><a href="datail.html">瘦身减肥</a></h3>
+                        <ul>
+                            <li><a href="datail.html">瘦脸</a></li>
+                            <li><a href="datail.html">瘦身</a></li>
+                            <li><a href="datail.html">瘦腿</a></li>
+                            <li><a href="datail.html">瘦腹</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul class="show-part">
+                        <h3><a href="datail.html">淡香水</a></h3>
+                        <ul>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+            <ul class="interindex" >
+                <a href="datailwomen.html" class="inbtn">进入美妆频道</a>
+                <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+            </ul>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one cothes"></i>
+        <span>服装</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入服装频道</a>
+            <a href="" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one biao"></i>
+        <span>腕表</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入腕表频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one shoushi"></i>
+        <span>配饰</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入配饰频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one shose"></i>
+        <span>鞋靴</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入鞋靴频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one children"></i>
+        <span>母婴</span>
+        <i class="jiantou">
+
+
+        </i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入母婴频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one drink"></i>
+        <span>美酒</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入美酒频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one food"></i>
+        <span>美食</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入美食频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one jiaju"></i>
+        <span>家居</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入家居频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one dianzhi"></i>
+        <span>电子</span>
+        <i class="jiantou"></i>
+    </a>
+    <s></s>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入电子频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one office"></i>
+        <span>办公</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入办公频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one gifto"></i>
+        <span>礼品</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入礼品频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+<li>
+    <a href=""  class="lineunder">
+        <i class="one seaout"></i>
+        <span>海外馆</span>
+        <i class="jiantou"></i>
+    </a>
+    <div class="zicaidan">
+        <ul class="inter">
+            <h2><a href="datailwomen.html">国际高端</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Louis Vuitton/LV</a></li>
+                <li><a href="datail.html">Chanel</a></li>
+                <li><a href="datail.html">Prada</a></li>
+                <li><a href="datail.html">Fendi</a></li>
+                <li><a href="datail.html">Versace</a></li>
+                <li><a href="datail.html">Burberry</a></li>
+                <li><a href="datail.html">Hermes</a></li>
+                <li><a href="datail.html">Dior</a></li>
+                <li><a href="datail.html">Gucci</a></li>
+                <li><a href="datail.html">Mont blance</a></li>
+                <li><a href="datail.html">Armani</a></li>
+                <li><a href="datail.html">Calvin Klein</a></li>
+                <li><a href="datail.html">CK</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">热销品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Sophie&Stephie</a></li>
+                <li><a href="datail.html">Michael&nbsp;Kors</a></li>
+                <li><a href="datail.html">Swarovski</a></li>
+                <li><a href="datail.html">D&G</a></li>
+                <li><a href="datail.html">Coach</a></li>
+                <li><a href="datail.html">Weekender</a></li>
+                <li><a href="datail.html">Rebecca&nbsp;Mincoff</a></li>
+                <li><a href="datail.html">Aviendo</a></li>
+            </ul>
+        </ul>
+        <ul class="inter">
+            <h2><a href="datailwomen.html">最新品牌</a></h2>
+            <ul class="showbag">
+                <li><a href="datail.html">Columbia</a></li>
+                <li><a href="datail.html">Roger&nbsp;Vivier</a></li>
+                <li><a href="datail.html">Troika</a></li>
+                <li><a href="datail.html">Luis&nbsp;onofre</a></li>
+                <li><a href="datail.html">Pull-in</a></li>
+                <li><a href="datail.html">proenza Schouler</a></li>
+                <li><a href="datail.html">Brosway</a></li>
+            </ul>
+        </ul>
+        <ul class="interindex" >
+            <a href="datailwomen.html" class="inbtn">进入海外馆频道</a>
+            <a href="datailwomen.html" class="inbtn">闪电发货区</a>
+        </ul>
+    </div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+    <a href="datailwomen.html" class="menu_a">品牌</a>
+</li>
+<li>
+    <a href="datailwomen.html" class="menu_a">最新</a>
+</li>
+<li>
+    <a href="datailwomen.html" class="menu_a">女士</a>
+</li>
+<li>
+    <a href="datailwomen.html" class="menu_a">男士</a>
+</li>
+<li>
+    <a href="datailwomen.html" class="menu_a">生活馆</a>
+</li>
+<li>
+    <a href="datailwomen.html" class="menu_a">海外馆</a>
+</li>
+<li>
+    <a href="datailwomen.html" class="menu_a">时尚</a>
+</li>
+<li>
+    <a href="datailwomen.html" class="menu_a">特惠</a>
+</li>
+<li>
+    <a href="datailwomen.html" class="menu_a">礼品区</a>
+</li>
+<li>
+    <a href="datail.html" class="menu_a">到店</a>
+</li>
+</ul>
+<ul id="icon_wrap" class="icon_Wrap">
+    <li>
+        <div class="divlist divlist01">
+            <a href="" target="_blank"><span class=""></span>
+                <b>品牌授权，官方验真</b>
+            </a>
+        </div>
+    </li>
+    <li>
+        <div class="divlist divlist02">
+            <a href="" target="_blank"><span class="th"></span>
+                <b>尊享品牌会员服务</b>
+            </a>
+        </div>
+    </li>
+    <li>
+        <div class="divlist divlist03">
+            <a target="_blank" href=""><span class="by"></span>
+                <b>商务部诚信示范企业</b>
+            </a>
+        </div>
+    </li>
+</ul>
+</nav>
+</div>
+<!--详情页的版图-->
+<div id="contain">
+    <!--故事文本内容-->
+    <div class="containdatail">
+        <div class="bdinter">
+            <div class="datailLeft">
+                <img src="../images/datail1.png" alt="-" height="80px"/>
+            </div>
+            <div class="datailRight">
+                <ul class="datailLeft1">
+                    <li>Chole克洛伊</li>
+                </ul>
+                <ul class="datailRightEnjory">
+                    <li>
+                        <a href="">
+                            <b class="enjory"></b>
+                            分享
+                        </a>
+                        <a href="" >
+                            <button id="btn">+关注 (<span class="dianji">0</span>)</button>
+                        </a>
+                        <a href="#" style="color: red" id="story">&gt;&gt;品牌故事详情&lt;&lt;</a>
+                    </li>
+                </ul>
+                <div class="article">
+                       <span>CHLOE品牌创造出了简洁美观、可穿性强的现代成衣理念。
+                        CHLOE品牌是巴黎成衣界的变色龙,CHLOE品牌创造出了简洁美观、
+                        可穿性强的现代......</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--垫定假层解决非标准流问题-->
+    <div class="allBrandKe">
+    </div>
+    <!--单独品牌的所有选项框-->
+    <div class="allBrand">
+            <span>
+                <a href="#">所有品牌</a>
+            </span>
+            <span>
+                &gt;
+            </span>
+        <span class="datline"><a href="#">Chloe克洛伊</a></span>
+
+        <ul class="allbag">
+            <li class="datalitop">
+                <a href="#">箱包</a>
+            </li>
+            <li class="datalitop1">
+                <a href="#">单肩包</a>
+                <a href="#">手提包</a>
+                <a href="#">手提斜跨包</a>
+                <a href="#">手拿包</a>
+                <a href="#">钱包</a>
+            </li>
+            <li class="datalitop">
+                <a href="">美妆</a>
+            </li>
+            <li class="datalitop1">
+                <a href="#">浓香水</a>
+                <a href="">香水套装</a>
+            </li>
+        </ul>
+        <ul class="allbag" style="border-top: 0">
+            <li class="datalitop">
+                <a href="#">箱包</a>
+            </li>
+            <li class="datalitop1">
+                <a href="#">单肩包</a>
+                <a href="#">手提包</a>
+                <a href="#">手提斜跨包</a>
+                <a href="#">手拿包</a>
+                <a href="#">钱包</a>
+            </li>
+            <li class="datalitop">
+                <a href="">美妆</a>
+            </li>
+            <li class="datalitop1">
+                <a href="#">浓香水</a>
+                <a href="">香水套装</a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="datailPrice">
+        <span>价格区间</span>
+        <span class="active2" data-filter="all">全部</span>
+        <span data-filter="1">0-899</span>
+        <span data-filter="2">900-1399</span>
+        <span data-filter="3">1400-2099</span>
+        <span data-filter="4">3200-5099</span>
+        <span data-filter="5">20130以上</span>
+    </div>
+    <div class="datailbuy">
+        <span class="active" style="position: relative;"data-filter="all">综合<b class="xiao"></b></span>
+        <span class="name" data-shuffle >人气</span>
+        <span class="name" data-shuffle>新品</span>
+        <span class="name" data-shuffle>销量</span>
+        <span class="name" style="position: relative;">价格<b class="add" data-sortAsc></b><b class="jian" data-sortDesc ></b></span>
+    </div>
+    <div class="datailmid">
+        <ul id="ul1">
+            <li class="logohot filtr-item" data-category="1">
+                <b class="classic"></b>
+                <a href="datailShop.html"><img src="../images/white1.jpg" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;500.00</span></p>
+            </li>
+            <li  class="logohot filtr-item" data-category="1">
+                <b class="classic"></b>
+                <a href="#"><img src="../images/yello.JPG" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;800.00</span></p>
+            </li>
+            <li  class="logohot filtr-item" data-category="2">
+                <b class="classic"></b>
+                <a href="#"><img src="../images/yello.JPG" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;1000.00</span></p>
+            </li>
+            <li  class="logohot filtr-item" data-category="3">
+                <b class="classic"></b>
+                <a href="#"><img src="../images/yello.JPG" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;2566.00</span></p>
+            </li>
+            <li  class="logohot filtr-item" data-category="5">
+                <b class="run"></b>
+                <a href="#"><img src="../images/yello.JPG" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;5608.00</span></p>
+            </li>
+            <li class="filtr-item" data-category="4">
+                <a href="#"><img src="../images/white2.jpg" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;4000.00</span></p>
+            </li>
+            <li class="logohot filtr-item" data-category="5">
+                <b class="run"></b>
+                <a href="#"><img src="../images/shirtjpg.jpg" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;1687390.00</span></p>
+            </li>
+            <li  class="logohot filtr-item" data-category="5">
+                <b class="run"></b>
+                <a href="#"><img src="../images/yello.JPG" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;163890.00</span></p>
+            </li>
+            <li class="filtr-item" data-category="5">
+                <a href="#"><img src="../images/white1.jpg" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;164395.00</span></p>
+            </li>
+            <li class="filtr-item" data-category="5">
+                <a href="#"><img src="../images/black2.jpg" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;164590.00</span></p>
+            </li>
+            <li class="filtr-item" data-category="3">
+                <a href="#"><img src="../images/shirtjpg.jpg" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;1690.00</span></p>
+            </li>
+            <li class="filtr-item" data-category="5">
+                <a href="#"><img src="../images/shirtjpg.jpg" alt="" class="responsive-img"/></a>
+                <p>张欣怡同款红色金属链条肩带小牛皮小猪单</p>
+                <p><span>&yen;164390.00</span></p>
+            </li>
+        </ul>
+        <ul id="ul2"></ul>
+        <div id="more">
+            <a href="#" id="more1">加载更多</a>
+        </div>
+    </div>
+</div>
+</div>
+<!--底部-->
+<div id="footerbox">
+    <div id="footboxCon">
+        <ul class="foottop">
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="pro">
+                        <img src="../images/footer_message01.jpg" alt=""/>
+                    </i>
+                    <div class="fontbox">
+                        <p >正品保障</p>
+                        <p class="profoot">品牌授权，官方验真</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="footmid">
+            <ul>
+                <li class="foottitle"><span class="footSpan">服务保障</span></li>
+                <li><span class="footSpan1">品牌授权正品</span></li>
+                <li><span class="footSpan1">品牌客服</span></li>
+                <li><span class="footSpan1">预约到店体验</span></li>
+                <li><span class="footSpan1">7天无理由退换</span></li>
+            </ul>
+
+            <ul>
+                <li class="foottitle"><span class="footSpan">使用帮助</span></li>
+                <li><span class="footSpan1">常见问题</span></li>
+                <li><span class="footSpan1">会员制度</span></li>
+                <li><span class="footSpan1">集团采购</span></li>
+                <li><span class="footSpan1">礼品卡</span></li>
+            </ul>
+
+            <ul>
+                <li class="foottitle"><span class="footSpan">配送方式</span></li>
+                <li><span class="footSpan1">常见问题</span></li>
+                <li><span class="footSpan1">会员制度</span></li>
+                <li><span class="footSpan1">集团采购</span></li>
+                <li><span class="footSpan1">礼品卡</span></li>
+            </ul>
+
+            <ul>
+                <li class="foottitle"><span class="footSpan">使用帮助</span></li>
+                <li><span class="footSpan1">常见问题</span></li>
+                <li><span class="footSpan1">会员制度</span></li>
+                <li><span class="footSpan1">集团采购</span></li>
+                <li><span class="footSpan1">礼品卡</span></li>
+                <li><span class="footSpan1">品牌授权正品</span></li>
+                <li><span class="footSpan1">品牌客服</span></li>
+            </ul>
+
+            <ul>
+                <li class="foottitle"><span class="footSpan">售后服务</span></li>
+                <li><span class="footSpan1">常见问题</span></li>
+                <li><span class="footSpan1">会员制度</span></li>
+                <li><span class="footSpan1">集团采购</span></li>
+                <li><span class="footSpan1">礼品卡</span></li>
+            </ul>
+
+            <ul>
+                <li><span class="footSpan">安装app</span></li>
+                <li style="width: 80px ;height: 80px;"><img src="../images/qr.jpg" alt="" class="responsive-img"/></li>
+            </ul>
+        </div>
+        <div class="footbottom">
+            <p class="footbottombag footSame">
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+                <span>|</span>
+                <a href="">箱包</a>
+            </p>
+            <p class="footbottombag1 footSame">
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+                <span>|</span>
+                <a href="">关于我们</a>
+            </p>
+            <p class="footSame1">
+                <span>Copyright&copy;20016-2020 fasion.com版权20016-2020fasion.com版权所有Copyright&copy;20016-2020 fasion.com版权20016-2020fasion.com版权所有</span>
+            </p>
+            <p class="footbottombag">
+                <a href=""><img src="../images/footer_message11.jpg" alt=""/></a>
+                <a href=""><img src="../images/footer_message11.jpg" alt=""/></a>
+                <a href=""><img src="../images/footer_message11.jpg" alt=""/></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--回到底部-->
+<div class="tufix">
+    <ul>
+        <li>
+            <a href="#">
+                <div class="tab-logo tab-logo_cart"></div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="tab-logo tab-logo_zichan"></div>
+                <div class="tab-tip">
+                    我的资产
+                    <div class="tab-tip-arr right_menu-arr">◆</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="tab-logo tab-logo_like"></div>
+                <div class="tab-tip">
+                    我喜欢的商品
+                    <div class="tab-tip-arr right_menu-arr">◆</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="tab-logo tab-logo_kefu"></div>
+                <div class="tab-tip">
+                    联系客服
+                    <div class="tab-tip-arr right_menu-arr">◆</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="tab-logo tab-logo_weixin"></div>
+                <div class="tab-tip" style="width: 100px ;height: 100px">
+                    <img src="../images/ma.png" alt="" class="responsive-img"/>
+                    <div class="tab-tip-arr right_menu-arr">◆</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="tab-logo tab-logo_fankui"></div>
+                <div class="tab-tip" >
+                    意见反馈
+                    <div class="tab-tip-arr right_menu-arr">◆</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="tab-logo tab-logo_line"></div>
+                <div class="tab-tip">
+                    联系我们
+                    <div class="tab-tip-arr right_menu-arr">◆</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="tab-logo tab-logo_top"></div>
+                <div class="tab-tip">
+                    回到顶部
+                    <div class="tab-tip-arr right_menu-arr">◆</div>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

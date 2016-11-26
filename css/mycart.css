@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: '微软雅黑';
+}
+#nav-top-1 .mycatNav{
+    height: 110px;
+    /*background: red;*/
+}
+#nav-top-1 .mycatNav .mycartright{
+    margin-top: 20px;
+    float: left;
+    margin-right: 20px;
+}
+#nav-top-1 .mycatNav .floatImg{
+    float: left;
+    /*position: relative;*/
+}
+#nav-top-1 .mycatNav .floatImg li{
+    width: 40px;
+}
+#nav-top-1 .mycatNav .mycartright p{
+    float: left;
+    margin-left: 5px;
+    height: 38px;
+    line-height: 55px;
+    color: #333333;
+    font-size: 13px;
+    cursor: pointer;
+}
+#nav-top-1 .mycatNav .floatImg .imgtop{
+    position: relative;
+    top: 9px;
+    left: 2px;
+}
+#nav-top-1 .mycatNav .mycartright p:hover{
+    color: #c69c6d;
+}
+#nav-under{
+    width: 100%;
+    height: 38px;
+    background: url('../images/navi_1pxbg.png') repeat-x;
+}
+#nav-under .nav-undermid{
+    width: 1210px;
+    margin: 0 auto;
+    position: relative;
+}
+#nav-under  .nav-undermid .mycarFan{
+    float: left;
+    text-align: center;
+}
+#nav-under .nav-undermid .mycarRight{
+    float: right;
+}
+#nav-under  .nav-undermid li a{
+        line-height: 38px;
+        color: #fff;
+        font-size: 14px;
+}
+#nav-under  .nav-undermid .mycarFan .mycarRed{
+    width: 130px;
+    background: url("../images/Fixindex.png") -8px -215px no-repeat;
+    font-weight: bold;
+    height: 42px;
+    display: inline-block;
+}
+#nav-under  .nav-undermid .mycarFan  .mycarredShow{
+    background: url("../images/Fixindex.png") no-repeat -473px -170px;
+    position: absolute;
+    top: 35px;
+    left: -7px;
+    width: 7px;
+    height: 7px;
+    display: block;
+}
+#mycartCon{
+    width: 100%;
+    overflow: hidden;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.mycartHeat{
+    width: 1210px;
+    margin: 10px auto 0;
+    min-height: 700px;
+}
+.mycartHeat .lanLeft{
+    width: 155px;
+    box-shadow: 0 0 5px #ccc;
+    background: #fff;
+    float: left;
+
+}
+.mycartHeat .lanLeft .list{
+    text-align: center;
+}
+.mycartHeat .lanLeft li{
+    font-size: 13px;
+    cursor: pointer;
+}
+.list>ul>li{
+    width: 100%;
+    border-bottom: 1px solid #666;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+.list>ul>li .title{
+    background : #c69c6d;
+    padding: 5px 10px;
+    border: none;
+    position: relative;
+    font-size: 15px;
+}
+.list>ul>li .title>span{
+    position: absolute;
+    right: 10%;
+}
+.list-se{
+    overflow: hidden;
+    display: none;
+}
+.list-se>li{
+    position: relative;
+    right: -100%;
+    -webkit-transition: right .5s;
+    -moz-transition: right .5s;
+    -o-transition: right .5s;
+    transition: right .5s;
+}
+.list-se>li>p{
+    background: #f0f0f0;
+    color: #3b3b3b;
+     padding: 5px 10px;
+    text-align: center;
+    -webkit-transition: border .5s;
+    transition: border .5s;
+    -webkit-transition: background .3s;
+    transition: background .3s;
+}
+.list-se>li>p:hover{
+  text-decoration: underline;
+}
+.menuright{
+    float:left;
+    margin-left: 15px;
+    width: 815px;
+    padding: 10px 10px;
+    box-shadow: 0 0 5px #ccc;
+    height: 630px;
+}
+.menuright .dingdanR{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.menuright .dingdanR .mycarfont{
+    border-bottom: 2px solid #cf0101;
+    /* width: 90px; */
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mycartInp{
+        margin-top: 15px;
+        float: right;
+}
+.mycartInp input{
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    border:1px solid #cccccc;
+}
+.mycartInp .fada{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 12px;
+    height: 12px;
+    background: url("../images/share02.png") no-repeat -408px -325px;
+}
+.mycartInp .find{
+    background: #d00000;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.goodAll{
+    clear: both;
+    height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d00000;
+}
+.goodAll ul li{
+    float: left;
+    padding: 4px 15px;
+    font-size: 13px;
+}
+.goodAll ul li a{
+    color: #333333;
+}
+.goodAll ul li a:hover{
+   color: #c69c6d;
+}
+.goodAll ul .activeRed{
+    background: #d00000;
+   border-radius: 5px 5px 0px 0px;
+}
+.goodAll ul .activeRed a{
+    color: #fff;
+}
+.goodAllbuy{
+    height: 31px;
+    background: #f2f2f2;
+    padding: 4px 0px;
+}
+.xiangq{
+    float: right;
+}
+.xiangq li{
+    float: left;
+    width: 100px;
+}
+.xiangq li a{
+   font-size: 13px;
+    color: #333333;
+}
+.goodAllnull{
+    clear: both;
+    background: #fff;
+}
+.goodAllnull span{
+    display: block;
+    font-size: 18px;
+}
+.goodAllnull .nogou{
+    padding-top: 70px;
+    text-align: center;
+}
+.goodAllnull .find1{
+    display: block;
+    width: 98px;
+    height: 28px;
+    background: #d00000;
+    color: #fff;
+    border: 1px solid #d00000;
+    margin: 20px auto;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 2px;
+}
+.ul3{
+    height: 33px;
+    position: relative;
+    background: #fff;
+    line-height: 33px;
+    text-align: center;
+}
+.ul3 li{
+    width: 130px;
+    height: 33px;
+    float: left;
+    border: 1px solid #ccc;
+    line-height: 31px;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.ul3 li a{
+    color: #444444;
+}
+.ul3 .active4{
+    background: #d3aa7d;
+}
+.mtcartBuy{
+    width: 795px;
+    height: 260px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+}
+.mtcartBuy .pre{
+    display: block;
+    width: 25px;
+    height: 75px;
+    float: left;
+    position: relative;
+    top: 90px;
+    left: 10px;
+    z-index: 5;
+}
+.mtcartBuy .next{
+    display: block;
+    width: 25px;
+    height: 75px;
+    float: left;
+    position: relative;
+    top: 90px;
+    left: 733px;
+    z-index: 5;
+}
+.first{
+    overflow: hidden;
+    position: absolute;
+    width: 764px;
+}
+.first li{
+    width: 170px;
+    float: left;
+    margin-left: 22px;
+}
+.first li .imgp{
+    width: 130px;
+    height: 133px;
+    margin: 15px auto;
+    display: block;
+    padding: 2px;
+}
+.first p{
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 10px;
+}
+.first .mySame{
+    color: #d00000;
+    font-weight: bold;
+}
+.first .firstOn{
+    width: 2865px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    left: -955px;
+}
+.lunbo1{
+    width: 2385px;
+    position: absolute;
+}
+.lunbo1 li{
+    float: left;
+}
+.lunbo1 .name{
+  text-align: center;
+    line-height: 260px;
+}
+.allM{
+    width: 795px;
+    position: absolute;
+    overflow: hidden;
+    height: 280px;
+}

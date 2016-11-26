@@ -1,0 +1,507 @@
+.datailShopMid{
+    width: 1210px;
+    margin: 0 auto;
+    height: 650px;
+}
+#nullDatailShop{
+    width: 100%;
+    height: 50px;
+}
+.datailShopMid .datailShopLeft{
+    float: left;
+}
+/*图片放大镜样式*/
+.jqzoom{
+    float:left;
+    border:none;
+    position:relative;
+    padding:0px;
+    cursor:pointer;
+    margin:0px;
+    display:block;
+}
+.zoomdiv{
+    z-index:100;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:478px;
+    height:476px;
+    background:#ffffff;
+    border:1px solid #EAEAEA;
+    display:none;
+    text-align:center;
+    overflow:hidden;
+}
+.jqZoomPup{
+    z-index:10;
+    visibility:hidden;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:20px;
+    height:20px;
+    border:1px solid #aaa;
+    background:#ffffff;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    filter: alpha(Opacity=50);
+}
+
+/*图片小图预览列表*/
+.spec-preview{
+    width : 480px;
+    height: 480px;
+    border: solid 1px #EAEAEA;
+}
+.spec-scroll{
+    clear:both;
+    margin-top:20px;
+    width:480px;
+}
+.spec-scroll .prev{
+    float:left;
+    margin-right:4px;
+}
+.spec-scroll .next{
+    float:right;
+}
+.spec-scroll .prev,.spec-scroll .next{
+    display:block;
+    font-family:"宋体";
+    text-align:center;
+    width:10px;
+    height:83px;
+    line-height:83px;
+    border:1px solid #CCC;
+    background:#EBEBEB;
+    cursor:pointer;
+    text-decoration:none;
+}
+.spec-scroll .items{
+    float:left;
+    position:relative;
+    width:450px;
+    height:85px;
+    overflow:hidden;
+}
+.spec-scroll .items ul{
+    position:absolute;
+    width:999999px;
+    height:85px;
+}
+.spec-scroll .items ul li{
+    float:left;
+    width:83px;
+    text-align:center;
+    margin-left: 3px;
+}
+.spec-scroll .items ul li img{
+    border:1px solid #CCC;
+    padding:2px;
+    width:82px;
+    height:85px;
+}
+.spec-scroll .items ul li img:hover{
+    border:2px solid #FF6600;
+    padding:1px;
+}
+.datailShopMid .datailShopRight{
+    width: 600px;
+    min-height: 615px;
+    overflow: hidden;
+    float: left;
+    padding-left: 60px;
+    overflow-x: hidden;
+    /*background: green;*/
+}
+.datailShopMid .datailShopRight .datailShopOne{
+    position: relative;
+    width: 100%;
+    /*background-color: red;*/
+}
+.datailShopMid .datailShopRight .Samelinedain{
+    border-bottom: 1px dotted #bfbfbf;
+}
+.datailShopMid .datailShopRight .datailone{
+    font-size: 18px;
+    cursor: pointer;
+}
+.datailShopMid .datailShopRight .datailone span{
+      font-size: 13px;
+      color: #999;
+      cursor: text;
+}
+.datailShopMid .datailShopRight .datailone a{
+    color: #999;
+}
+.datailShopMid .datailShopRight .datailone a:hover,.datailShopMid .datailShopRight .datailone p:hover{
+    color: #b28247;
+}
+.datailShopMid .datailShopRight .datailstyle{
+    padding: 10px 5px;
+    float: left;
+    color: #c8a985;
+}
+.datailShopMid .datailShopRight .datailShopMonoy p{
+   font-size: 30px;
+}
+.datailShopMid .datailShopRight .datailShopMonoy span{
+    text-decoration: line-through;
+}
+.datailShopMid .datailShopRight .datailmid{
+    color: #fff;
+    width: 100px;
+    height: 23px;
+    background: #c8a985;
+    padding: 0;
+    margin: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.datailShopMid .datailShopRight .manmam{
+    width: 100px;
+    height: 100px;
+}
+.datailShopMid .datailShopRight .huiyuan{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    padding: 5px 0px;
+    text-align: center;
+    top: 15px;
+    left: 0px;
+    border-radius: 2px;
+    z-index: 2;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.datailShopMid .datailShopRight .huiyuan .zuan{
+    background: url("../images/brandstore_share.png") no-repeat -350px -287px;
+    width: 20px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin: -3px -22px 0px 10px;
+}
+.datailShopMid .datailShopRight .hidehuiyuan{
+    width: 200px;
+    background: #fff;
+    position: absolute;
+    top: 117px;
+    right: 58px;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    z-index: 1;
+    border-radius: 2px;
+    display: none;
+    cursor: pointer;
+}
+.datailShopMid .datailShopRight .hidehuiyuan p{
+    color: #000;
+    text-align: center;
+}
+.datailShopMid .datailShopRight .hidehuiyuan a{
+    text-align: center;
+    font-size: 13px;
+}
+.datailShopMid .datailShopRight .huodong{
+    clear: both;
+}
+.datailShopMid .datailShopRight .pright{
+    float: left;
+    position: relative;
+}
+.datailShopMid .datailShopRight .pright p{
+    color: #c8a985;
+    font-size: 13px;
+    padding: 5px 20px;
+}
+.jiantourow{
+    width: 50px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    background: url("../images/brandstore_share.png") no-repeat -369px -283px;
+    float: right;
+    margin-top: -5px;
+}
+.datailShopMid .datailShopRight .leftcol{
+    width: 80px;
+    float: left;
+    padding: 20px 10px;
+    text-align: left;
+    overflow: hidden;
+    font-size: 15px;
+}
+.datailShopMid .datailShopRight .rightcol{
+    width: 460px;
+    min-width: 110px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+
+}
+.datailShopMid .datailShopRight .rightcol span{
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+}
+.colorlist{
+    height: 50px;
+    float: left;
+}
+.datailShopMid .datailShopRight .rightcol  .activeShop{
+    border: 1px solid #d00000;
+}
+.rightcol button{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background: #c8a985;
+    text-align: center;
+}
+.rightcol input{
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.chose{
+    color: #fff;
+    background: #c8a985;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: -19px;
+    left: 256px;
+    font-size: 13px;
+}
+.sendShop{
+    font-size: 15px;
+    color:  #999;
+    margin-top: 10px;
+}
+.sendShop a{
+    color: #c8a985;
+
+}
+.sendgoods{
+    float: left;
+    width: 80px;
+    padding: 5px 3px;
+}
+.meetSame{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 33px;
+    height: 33px;
+    width: 118px;
+    border: 1px solid #c8a985;
+    text-align: center;
+    text-decoration: none;
+}
+.bagGood{
+    width: 25px;
+    height: 35px;
+    left: 10px;
+    top: 0;
+    display: inline-block;
+    position: absolute;
+    background: url("../images/brandstore_share.png") no-repeat -270px -335px;
+}
+.start{
+
+    background: url("../images/brandstore_share.png") no-repeat -25px -334px;
+}
+.styleStart{
+    color: #999999 !important;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+.pstart{
+    margin-top: 15px;
+    position: relative;
+}
+.pstart li{
+    float: left;
+    width: 120px;
+}
+.pstart li b{
+    width: 25px;
+    height: 35px;
+    display: inline-block;
+    float: left;
+}
+.start1{
+    background: url("../images/brandstore_share.png") no-repeat -68px -334px;
+}
+.start2{
+    background: url("../images/brandstore_share.png") no-repeat -228px -334px;;
+}
+.start3{
+    background: url("../images/brandstore_share.png") no-repeat -105px -334px;;
+}
+.start4{
+    background: url("../images/brandstore_share.png") no-repeat -147px -334px;;
+}
+.fixnavshop{
+    clear: both;
+    width: 100%;
+    background: red;
+    position: relative;
+    top: 0;
+}
+.fixnavcon{
+    width: 1210px;
+    height: 38px;
+    margin: 0 auto;
+}
+.fixnavcon .xiang{
+    display: block;
+    width: 20px;
+    height: 33px;
+    position: absolute;
+    top: 3px;
+    right: -2px;
+    background: url("../images/brandstore_share.png") no-repeat -236px -288px;
+}
+.dianwang{
+    width: 198px;
+    height: 38px;
+    border: 1px solid #c9c9c9;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 38px;
+}
+.dashop{
+    width: 868px;
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #c9c9c9;
+}
+.dashop li{
+    display: inline-block;
+    width: 198px;
+    line-height: 33px;
+    text-align: center;
+
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.dashop li a{
+    color: #666;
+}
+.picShop{
+    width: 1210px;
+    margin: 10px auto 0;
+}
+.picShopLeft{
+    width: 198px;
+    float: left;
+}
+.pinpaiSame{
+    border: 1px solid #ccc;
+}
+.pinpaiSame li{
+    width: 198px;
+    padding: 10px;
+}
+.meetSame1{
+    font-size: 14px;
+    line-height: 33px;
+    height: 33px;
+    width: 198px;
+    background:  #c8a985;
+    text-align: center;
+    padding: 0 !important;
+}
+.meetSame1 a{
+    color: #fff;
+}
+.pinpaiSame p{
+    color: #444;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+.picShopRight{
+    width: 898px;
+    float: left;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.imgS{
+    width: 859px;
+    height: 316px;
+    box-shadow: 5px 5px 10px #ccc;
+    position: relative;
+}
+.hideIm{
+    height: 312px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.topSmall1{
+    margin-top: 20px;
+}
+.topSmall{
+    width: 431px;
+    height: 254px;
+    float: left;
+    position: relative;
+}
+.listIm{
+    margin-top: 10px;
+}
+.nameL{
+    background-color: #E9E7E8;
+    height: 617px;
+}
+.nameL li{
+    width: 375px;
+    height: 617px;
+    float: left;
+    padding: 25px;
+}
+.pwidthx p{
+    width: 867px;
+}
+.dashop li a:hover{
+    color:#c8a985;
+}
+#end{
+    display: block;
+}
+.u-flyer{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 9999;
+    background: red;
+}
+.flyer{
+    width: 478px;
+    height: 478px;
+
+    position: absolute;
+    z-index: 500;
+}
+.Samecolor{
+    cursor: pointer;
+}

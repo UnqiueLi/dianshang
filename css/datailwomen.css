@@ -1,0 +1,331 @@
+a{
+    cursor: pointer;
+}
+.nullh{
+    height: 38px;
+}
+.menu_datail{
+    background: #f2f2f2;
+    width: 1210px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+.vca_01 {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 44px;
+    height: 84px;
+    display: block;
+    background: url("../images/brandstore_share.png") no-repeat -440px -218px;
+}
+.vca_02 {
+    position: absolute;
+    left: 956px;
+    top: 0;
+    width: 44px;
+    height: 84px;
+    display: block;
+    background: url("../images/brandstore_share.png") no-repeat -440px -318px;
+}
+.vca_03 {
+    position: absolute;
+    left: 78px;
+    top: 15px;
+    width: 876px;
+    height: 175px;
+    overflow: hidden;
+}
+.vca_03 ul li{
+    /*display: inline-block;*/
+    float: left;
+    width: 292px;
+}
+.vca_04 {
+    position: absolute;
+    left: 1019px;
+    top: 15px;
+    width: 170px;
+    height: 175px;
+    overflow: hidden;
+    text-align: center;
+}
+.clearboth {
+    clear: both;
+    float: none;
+    display: block;
+    width: 100%;
+    height: 1px;
+}
+.brandsearch_yixuan {
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    padding: 8px 0;
+    width: 1210px;
+}
+.brandsearch_yixuan span {
+    float: left;
+    text-align: center;
+    border: 1px dotted #000;
+    min-width: 80px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-family: "宋体";
+    background-color: #fff;
+    font-size: 13px;
+}
+.brandsearch_yixuan span:first-child {
+    border: none;
+    min-width: 20px;
+    padding-left: 10px;
+}
+.brandsearch_yixuan span.suoyou {
+    display: block;
+    color: #000;
+}
+.brandsearch_yixuan b {
+    width: 28px;
+    float: left;
+    line-height: 25px;
+    display: inline-block;
+    background: url("../images/brandstore_share.png") no-repeat -106px -290px;
+}
+.brandsearch_yixuan span.brandsearche_alltype {
+    position: relative;
+    padding: 0 20px 0px 10px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    overflow: hidden;
+}
+.f_right {
+    float: right;
+    line-height: 27px;
+    vertical-align: middle;
+    padding-right: 20px;
+    color: #666;
+    font-size: 13px;
+}
+.brandsearch_yixuan span a {
+    color: #79502d;
+    padding: 0 10px;
+}
+.brandsearch_yixuan span.brandsearche_alltype a {
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    background: url("../images/7-22.png") no-repeat;
+    cursor: pointer;
+    padding: 0;
+}
+.brand_allc_lbie {
+    width: 1210px;
+    margin: 0 auto;
+    border: 1px solid #bfbfbf;
+    overflow: hidden;
+    zoom: 1;
+}
+.attr_brand_small {
+    display: inline-block;
+    padding: 11px 10px;
+    width: 100%;
+    font-size: 13px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.brand_allc_lbie ul li {
+    width: 100%;
+    overflow: hidden;
+    zoom: 1;
+    background-color: #ebebeb;
+}
+.attr_brand_big ul li{
+    background: 0;
+    display: none;
+}
+.brand_allc_bl {
+    width: 130px;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    color: #6e3e0e;
+    text-indent: 20px;
+}
+.linh40 {
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.brand_allc_br:last-child {
+    border-bottom: none;
+}
+.brand_allc_br{
+    width: 1078px;
+    float: left;
+    padding-bottom: 10px;
+    overflow: hidden;
+    zoom: 1;
+    background-color: #fff;
+    min-height: 45px;
+    border-bottom: 1px solid #ccc;
+}
+#attr_brand_small span:first-child {
+    width: 75px;
+    padding: 0px 10px;
+}
+.attr_brand_small span {
+    float: left;
+    width: 25px;
+    height: 22px;
+    line-height: 22px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 3px;
+    margin-left: 3px;
+    color: #444444;
+}
+.allc_all{
+    display: inline-block;
+    width: 50px;
+    float: left;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 30px;
+}
+.linh22 {
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.attr_brand_small span a{
+    color: #000;
+}
+.attr_brand_small .small_hover{
+    background: #b28247;
+}
+.attr_brand_small span a:hover {
+    color: #000;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+}
+#brand_more{
+    color: #757272;
+    background-color: #c6c4c4;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
+.attr_brand_auto {
+    max-height: 200px;
+    overflow: auto;
+    position: relative;
+
+}
+.attr_brand_big{
+    padding-left: 13px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.attr_brand_big span{
+    display: block;
+
+}
+.attr_brand_big a{
+    display: inline-block;
+    color: #6e3e0e;
+    vertical-align: middle;
+    float: left;
+    padding: 7px 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+.onColo{
+    padding: 10px;
+    float: left;
+    font-size: 13px;
+}
+.onColo a{
+    color: #6e3e0e;
+    font-weight: bold;
+}
+.onspan span{
+    padding: 5px 0px 10px 0px;
+    font-size: 13px;
+}
+.onspan a{
+    padding: 7px 20px;
+    color: #6e3e0e;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    vertical-align: middle;
+
+}
+.activeon{
+    background: #c69c6d;
+}
+.activeon a{
+    color: #fff;
+}
+.twobrand_allc{
+    width: 1080px;
+    float: left;
+    overflow: hidden;
+    zoom: 1;
+    min-height: 40px;
+    border-bottom: 1px solid #c6c4c4;
+    padding: 10px;
+}
+.onclodat span:hover{
+    background: #c69c6d;
+}
+.onclodat span a:hover{
+    color: #fff;
+}
+.close_attr_v30 {
+    width: 278px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    height: 25px;
+    text-align: center;
+    border-top: none;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    top: -1px;
+    font-size: 13px;
+}
+.close_attr_v30 b {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 10px;
+    height: 25px;
+    background: url("../images/brandstore_share.png") no-repeat -75px -292px;
+}
+#ul4{
+    display: none;
+}
+.open_attr_v30 .xiangshang{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 10px;
+    height: 25px;
+    background: url("../images/brandstore_share.png") no-repeat -31px -292px;
+}

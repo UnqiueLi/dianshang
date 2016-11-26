@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery.js"></script>
+    <script src="testLogin.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script>
+        $(function(){
+//            /*
+//             验证手机号码 正则
+//             */
+            var flag=false;
+            $("#tel").on("blur",function(){
+                var regTel=/^1[34578]\d{9}$/;
+                var telVal=$(this).val();
+                if(regTel.test(telVal)){
+                    $("#tishi").show();
+                    $("#worn").show();
+                    $("#error").html("手机号码输入合法");
+                    $("#error").css("color","green");
+                    flag=true;
+                }else{
+                    $("#tishi").show();
+                    $("#worn").show();
+                    $("#error").html("手机号码输入不合法");
+                    $("#error").css("color","red");
+                    flag=false;
+                }
+
+            })
+
+            /*
+             输入手机号码获取验证码 reslogin.js
+             */
+            var flag1=false;
+            $("#hleft").on("click",function(){
+                var tel = sendMessage();
+            })
+            $("#yan").on("blur",function(){
+                var  yanVal=$("#yan").val();
+                if(yanVal=="" || yanVal.length<6){
+                    $("#tishi").show();
+                    $("#worn").show();
+                    $("#error").html("验证码不合法");
+                    $("#error").css("color","red");
+                    flag1=true;
+                }else{
+                    $("#tishi").show();
+                    $("#worn").show();
+                    $("#error").html("验证码合法");
+                    $("#error").css("color","green");
+                    flag1=true;
+                }
+            })
+            //两周内登录认证cookiet
+            var telVal=$("#tel").val();
+            var sendCode=$("#yan").val();
+//            $.cookie("tel","telVal");
+//            $.cookie("yan","sendCode");
+            $("#btn").on("click",function(){
+                if(flag && flag1){
+                   if($("#checkRed")[0].checked){
+                       $.cookie("tel","telVal",{expires:14});
+                       $.cookie("yan","sendCode",{expires:14});
+                   }
+                    open("../success.html");
+                }else{
+
+                }
+            })
+        })
+
+    </script>
+</head>
+<body>
+<div class="main">
+    <!-- 登录导航logo -->
+    <nav>
+        <a href="" id="logo">
+            <img src="../images/logo.fw.png" alt="" class="img-repeat">
+        </a>
+    </nav>
+</div>
+<!--主板内容 -->
+<div id="lg-body">
+    <div  class="main">
+        <div id="containLeft">
+            <img src="../images/login.png" alt="">
+            <b>
+                <img src="../images/ma.png" alt="" id="img">
+                <p id="per">潮流达人客户端</p>
+            </b>
+        </div>
+        <div id="containRight">
+            <ul class="login-tab">
+                <li><a href=""  id="mes" target="_self" class="active">短信登录</a></li>
+                <li><a href="login.html" id="pwdLogo" target="_self" >密码登录</a></li>
+            </ul>
+            <div class="login-form">
+                <form action="" >
+                    <ul>
+                        <li id="tishi"><b id="worn"></b><span id="error"></span></li>
+                        <li>
+                            <input type="text" placeholder="手机号码" id="tel">
+                        </li>
+                        <li>
+                            <input type="text" placeholder="验证码" id="yan">
+                            <input id="hleft" type="button" value="获取验证码"/>
+                        </li>
+                        <li class="autoL">
+                            <div id="weekL" class="week">
+                                <input type="checkbox" id="checkRed">两周内自动登录
+                            </div>
+                            <div id="findpwd" class="week">
+                                <a href=""id="find">找回密码</a>
+                            </div>
+                        </li>
+                        <li id="denglv">
+                            <button id="btn">登录</button>
+                        </li>
+                    </ul>
+                </form>
+                <div id="com">
+                    <a href="" style="color:#333;font-size:12px">合作网站帐号登录
+                    </a>
+                    <ul class="pic">
+                        <b class="qq pict"></b>
+                        <b class="wei pict"></b>
+                        <b class="xin pict"></b>
+                        <b class="zhi pict"></b>
+                        <b class="hua pict"></b>
+
+                        <a href="" class="shao"></a>
+                        <a href="" class="ban"></a>
+                    </ul></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 脚本 -->
+<footer  class="main">
+    <p>
+        <a href="" class="me">联系我们</a><span>|</span>
+        <a href="" class="me">联系我们</a><span>|</span>
+        <a href="" class="me">联系我们</a><span>|</span>
+        <a href="" class="me">联系我们</a><span>|</span>
+        <a href="" class="me">联系我们</a><span>|</span>
+        <a href="" class="me">联系我们</a><span>|</span>
+        <a href="" class="me">联系我们</a><span>|</span>
+        <a href="" class="me">联系我们</a>
+    </p>
+    <p>Copyright&copy;20016-2020 fasion.com版权20016-2020fasion.com版权所有</p>
+</footer>
+</body>
+</html>
